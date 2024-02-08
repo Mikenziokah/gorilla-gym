@@ -1,0 +1,123 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-colour: #CCCC;
+}
+
+#classes-dropdown {
+    display: none;
+    position: absolute;
+    background-colour: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#classes-dropdown li {
+    display: block;
+}
+
+nav ul li:hover #classes-dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #a84432;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown li {
+    display: block;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('images/image1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 380px 0;
+}
+ 
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.journey-text {
+    margin-bottom: 50px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    display: inline-block
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+section {
+    background-color: #E1F0DA;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
