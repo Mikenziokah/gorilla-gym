@@ -12,6 +12,7 @@ body {
 }
 
 #classes-dropdown {
+  /* shared styles for dropdowns */
     display: none;
     position: absolute;
     background-colour: #f9f9f9;
@@ -77,6 +78,8 @@ nav ul li a {
 }
 
 .hero {
+    /* Background image, color, alignment, and padding */
+
     background-image: url('images/image1.jpg');
     background-size: cover;
     background-position: center;
@@ -86,6 +89,8 @@ nav ul li a {
 }
  
 .hero h2 {
+    /* Font size and margin */
+
     font-size: 3em;
     margin-bottom: 10px;
 }
@@ -95,6 +100,8 @@ nav ul li a {
 }
 
 .btn {
+    /* Background color, text color, padding, etc. */
+
     background-color: #007bff;
     color: #fff;
     padding: 15px 10px;
@@ -106,6 +113,8 @@ nav ul li a {
 }
 
 .btn:hover {
+    /* Hover effect */
+
     background-color: #0056b3;
 }
 
